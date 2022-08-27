@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=IBM+Plex+Sans:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Montserrat:wght@500;600;700&family=Mulish:wght@300&family=Roboto&family=Sirin+Stencil&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: "Montserrat";
+}
+
+.discount {
+  background-color: #181818;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.storeName {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.header-page {
+  width: 100%;
+  height: 22rem;
+  background-color: #181818;
+}
+
+#img-header { 
+  opacity: 0.2;
+  width: 100%;
+}
+
+.img-store { 
+  display: inline-block;
+  position: relative;
+}
+
+.img-store img { 
+  width: 100%;
+  height: 100%;
+}
+
+.info-store { 
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  color: #ffffff;
+}
+
+.info-store h3 {
+  font-size: 32px;
+}
+
+.items { 
+  display: flex;
+  flex-direction: column;
+}
+
+.destaques { 
+  text-align: center;
+  margin: 2rem 0 2rem 0 ;
+  font-size: 32px;
+}
+
+.container { 
+  width: 100%;
+  margin: 0 auto;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap ;
+}
+
+.container div { 
+  flex: 1 1 300px;
+  border-radius: 10px;
+  margin: 5px;
+  transition: 1s all;
+}
+
+.container div:hover { 
+  transition: 1s all;
+  cursor: pointer; 
+  box-shadow: 0 5px 20px #000;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #181818;
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
